@@ -1,4 +1,9 @@
-
+body {
+    font-family: 'Joan', serif;
+    
+     
+   
+}
 
 :root {
     --primary: #F06161;
@@ -10,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: 'Fira sans', sans-serif;
+    font-family: 'Joan', serif;
 }
 .container {
     max-width: 1280px;
@@ -112,66 +117,71 @@ border-bottom: 3px solid var(--primary);
     .menu {
         display: flex;
     }
-}
+}    
 .logo {
-    height: 50px
+    width: 150px;
 }
-.first {
-    display: inline-flex;
-    position: relative;
-    top: 157px;
-    left: 500px; 
-   
-}
-
-.basil{
-    display:flex; 
-    height: 100px; 
-    width: 100px;
-    justify-content: center;
-    border-radius: 50%; 
-}
-.right{
-    width: 300px;
-    margin-left: 30px;
-    position: relative;
-    font-family: 'Joan', serif;
-}
-h1{
-  color: black; 
-  position:relative; 
-  text-align: center;
-  top: 150px;
-  font-family: 'Joan', serif;   
-  text-decoration: underline;
-}
-
-.salat{
-    position: relative;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    top: 200px;
-    left: 500px;
-  
-}
-hr{
-    position: relative;
-    top: 185px;
-}
-   
-ul{
-    position: relative;
-    left: 635px;
-    top: 135px; 
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%; 
+    flex-shrink: 1;
     
 }
-li {
-    position: relative;
-    left: 91px; 
-    font-family: 'Joan', serif;
+   
+
+#field{
+   width: 20%;
+   height: 20%;
+   border-radius: 10%;
+   
+   
+   
 }
-h2{
-    font-family: 'Joan', serif;
-    text-decoration: underline;
+#text{
+    text-align: center;
+    width:50%;
+   
+}
+h1 {
+   text-align: center;
+}   
+h1::first-letter {
+   font-size: 70px;
+}
+p::first-letter{
+    font-size:  50px;
+}
+p {
+    text-align: center;
+}
+#background {
+   
+   width: 30%;
+   height:20%;
+
+}
+#what{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:6%;
+}
+#was{
+    background-color: #dedede;
+    text-align: center;
+    opacity: 0.7;
+    position: absolute;
+    height: 30%;
+    top: 150%;
+
+
+}
+ul{
+    list-style: none; 
+    line-height: 40px;
+}
+h2::first-letter {
+    font-size:  25px;
 }
